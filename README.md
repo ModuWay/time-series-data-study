@@ -1,9 +1,9 @@
 # time-series-data-study
 ## 참여 인원
-- [강민정](https://github.com/miinkang)
-- [김이삭](https://github.com/IsaacTips)
-- [김인유](https://github.com/willowkim8)
-- [문성은](https://github.com/vg-rlo)
+- [강민정(miinkang)](https://github.com/miinkang)
+- [김이삭(IssacTips)](https://github.com/IsaacTips)
+- [김인유(willowkim8)](https://github.com/willowkim8)
+- [문성은(vg-rlo)](https://github.com/vg-rlo)
 
 
 ## 목적
