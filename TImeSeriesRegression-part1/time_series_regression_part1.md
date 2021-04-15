@@ -1,3 +1,18 @@
+# 데이터 계절성의 종류 
+![image](https://user-images.githubusercontent.com/68461606/114884130-7b614580-9e40-11eb-8dc8-7614544af5de.png)   
+시계열 데이터에 대한 예제를 소개하는 강의 앞부분이었습니다.  
+이렇게 시간에 흐름에 따라 데이터가 점진적으로 증가하는 데이터를 multiplicative라고 합니다.   
+
+서치한 답변!  
+The general definition of additive or multiplicative seasonality is: level + seasonal indices, or level x seasonal indices. Effectively, with multiplicative seasonality the width of the seasonal pattern is proportional to the level. For additive seasonality it is independent.    
+
+포인트는   
+- additive seasonality = level + seasonal indices
+- multiplicative seasonality = level * seasonal indices
+
+대회에서 분석 및 예측하는 비트코인 데이터는 둘 중 어디에 속할까에 대해 다시 고민해봐야할 것 같습니다.   
+이전에 이삭님께 질문했었는데, 계절성은 없지만 점진적으로 증가하는 축에 속할 것 같다라는 답변을 얻었습니다.   
+함께 토의해보아요! 
 
 ---
 (구분선 위에 작성해주세요.)
