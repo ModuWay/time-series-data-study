@@ -14,12 +14,6 @@
     - 백색잡음(White Noise): 평균이 0이고 분산이 일정한 시계열 데이터
 
 ## Prediction Error(예측오차) 
-
-$y_{t}: t$에서의 실제값<br>
-$\hat{y}_{t}: t$에서의 예측값
-
-$$e_{t}=y_{t}-\hat{y}_{t}$$
-
 * MAD(평균절대편차)
 * MSE(평균제곱편차)
 * MAPE(Mean Absolute Percentage Error)
