@@ -3,12 +3,23 @@
     - e.g. 일, 달, 분기(Quarterly), 년
 
 ## 시계열 데이터 구성요소
-* Trends 
-* Cycle 
-* Seasonal variations 
+* Trends
+    - 시간이 경과함에 따라 관측값이 지속적으로 증가하거나 감소하는 추세를 갖는 경우의 변동.(1년 이상)
+* Cycle
+    - 주기적인 변화를 가지지만 계절에 의한 것이 아니고 주기가 긴 경우
+* Seasonal variations
+    - Cycle의 일부분, 계절에 따라서 변동(주별, 월별 같이 주기적인 요인 포함)
 * Random fluctuation
+    - Trend, Cycle 없음
+    - 백색잡음(White Noise): 평균이 0이고 분산이 일정한 시계열 데이터
 
 ## Prediction Error(예측오차) 
+
+$y_{t}: t$에서의 실제값<br>
+$\hat{y}_{t}: t$에서의 예측값
+
+$$e_{t}=y_{t}-\hat{y}_{t}$$
+
 * MAD(평균절대편차)
 * MSE(평균제곱편차)
 * MAPE(Mean Absolute Percentage Error)
