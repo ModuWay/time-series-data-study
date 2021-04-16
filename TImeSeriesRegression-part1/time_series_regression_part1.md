@@ -15,8 +15,10 @@
 
 ---
 # 질의 응답
-#### [miinkang] 데이터 계절성의 종류에서 multiplicative와 additive seasonality가 무엇인지 
-시계열 데이터에 대한 예제를 소개하는 강의 앞부분에서, 시간의 흐름에 따라 데이터가 점진적으로 증가한 예시를 multiplicative라고 합니다.  
+#### [miinkang] 데이터 계절성의 종류에서 multiplicative와 additive seasonality가 무엇인지   
+강의 앞부분에서 시계열 데이터에 대한 예제를 소개하였습니다.    
+시간의 흐름에 따라 데이터가 점진적으로 증가한 예시를 multiplicative라고 합니다.    
+우리가 경진대회에서 사용한 prophet모델의 옵션인 seasonality mode = multiplicative의 예시입니다.
 ![image](https://user-images.githubusercontent.com/68461606/114884130-7b614580-9e40-11eb-8dc8-7614544af5de.png)   
 
 서치한 답변!  
