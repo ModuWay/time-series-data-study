@@ -33,6 +33,10 @@ The general definition of additive or multiplicative seasonality is: level + sea
 - additive seasonality = level + seasonal indices
 - multiplicative seasonality = level * seasonal indices
 
+level이 무엇일까? -> : 평균값 
+https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/      
+
+
 #### [vg-rlo] 증가 여부로만 판단하지 않고 additive인지 multiplicative인지는 구성요인간의 독립 여부에 따라 판단합니다. 
 [서치한 답변!](https://www.r-bloggers.com/2017/02/is-my-time-series-additive-or-multiplicative/)    
 In a multiplicative time series, **the components multiply together** to make the time series. If you have an increasing trend, the amplitude of seasonal activity increases. Everything becomes more exaggerated. This is common when you’re looking at web traffic.    
