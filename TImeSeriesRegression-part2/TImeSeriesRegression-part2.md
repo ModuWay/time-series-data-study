@@ -21,6 +21,10 @@ autocorrelation이 없다면, 공분산이 0이라는 가정이 성립하기에 
 이번 강의에서는 autocorrelation을 확인하는 이유와 검정방법에 대해 알아볼 수 있었다. 
 
 ## Q. residual과 error term의 차이점    
+- error term : 모집단(population)에서 얻은 예측값과 실제 관측값의 차이
+- residual : 표본집단(sample)에서 얻은 예측값과 실제 관측값의 차이    
+해당 강의에서는 모집단이 없는 경우이기 때문에 error term을 직접 확인할 수 없어서 residual을 통해 autocorrelation을 확인한다고 설명한다.     
+
 **The Difference Between Error Terms and Residuals**     
 Although the error term and residual are often used synonymously, there is an important formal difference. An error term is generally unobservable and a residual is observable and calculable, making it much easier to quantify and visualize. In effect, while an error term represents the way observed data differs from the actual population, a residual represents the :way observed data differs from sample population data.    
 출처 : [Error Term](https://www.investopedia.com/terms/e/errorterm.asp#:~:text=The%20Difference%20Between%20Error%20Terms%20and%20Residuals&text=In%20effect%2C%20while%20an%20error,differs%20from%20sample%20population%20data)      
