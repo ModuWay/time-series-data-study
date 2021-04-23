@@ -1,6 +1,6 @@
-## 성은([vg-rlo](https://github.com/vg-rlo))
+# 성은([vg-rlo](https://github.com/vg-rlo))
 
-####  Q. Transformation을 해줄때 Square root transformation과 Log transformation을 해줌으로서 increase한 magnitude를 constant하게 바꿔준다. Time series Regression에  적용하기 위해서 이와 같은 처리를 해주는데 correlation을 없애주기 위함인지 궁금하다. 
+##  Q. Transformation을 해줄때 Square root transformation과 Log transformation을 해줌으로서 increase한 magnitude를 constant하게 바꿔준다. Time series Regression에  적용하기 위해서 이와 같은 처리를 해주는데 correlation을 없애주기 위함인지 궁금하다. 
 magnitude of the seasonal swing depends on the level of time series 
 => increasing seasonal variation     
 회귀모델링을 하기 위해 평균과 분산은 시점에 의존하면 안된다. 따라서 분산이 일정하지 않은 시계열은 변환을 통해 정상화할 수 있다. 이때, 주로 Log transformation을 사용한다. 공분산(covariance)도 시차에만 의존하고 특정 시점에 의존하지 않는다.     
@@ -9,8 +9,8 @@ magnitude of the seasonal swing depends on the level of time series
 [시계열분석의 개념](https://analysis-flood.tistory.com/17)
 [ADP 시계열 분석](https://ckmoong.tistory.com/7)   
 
-#### Q. 오차, 잔차 차이에서모집단/표본집단인 상황이 어떻게 구분되는지와  '회귀모형에서 오차항은 측정할 수 없으므로'라는 부분이 궁금하다. 
-####  Q. 최소제곱법 왜 사용해주는지 
+## Q. 오차, 잔차 차이에서모집단/표본집단인 상황이 어떻게 구분되는지와  '회귀모형에서 오차항은 측정할 수 없으므로'라는 부분이 궁금하다. 
+## Q. 최소제곱법 왜 사용해주는지 
 
 모집단과 표본집단
 * 대부분의 상황에서 표본집단에서 회귀식을 얻는다. => 강의에서도 표본집단 케이스를 예시로 들음 
