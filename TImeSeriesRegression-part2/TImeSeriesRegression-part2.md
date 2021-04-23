@@ -32,7 +32,28 @@ magnitude of the seasonal swing depends on the level of time series
 [선형대수학 최소제곱법](https://bskyvision.com/236)
 
 # 이삭([](https://github.com/))
-# 인유([](https://github.com/))
+# 인유([willowlkim8](https://github.com/willowkim8))
+
+회귀 모델
+$$y_t=TR_t+\epsilon_t$$
+위의 식에서 $TR$은 trend, 추세이다.  
+이때 추세가 없는 경우에는 일정한 값으로 예측하거나, prediction interval로도 예측 가능하다.  
+
+Q. $\alpha$가 있을 때 prediction interval 구할 수 있다고 했는데, 이때 $\alpha$는 무엇인가?
+>prediction interval(PI)는 confidence interval(CI)와 함께 신뢰구간을 뜻한다.  
+100(1-$\alpha$)%로 신뢰구간을 구하는 것이고, $\alpha$는 사용자가 지정하면된다.  
+
+회귀모델을 쓰려면 $\epsilon$들이 서로 다른 시점에서 독립이어야 한다.  
+당연히 위배될 가능성이 크다.  
+=> Autocorrelation으로 회귀 모델을 쓸 수 있을지 확인 가능하다.  
+auto = self, co = two, 이 의미를 통합하면 스스로 2가지를 모양을 하고 관계를 한다는 것이다.  
+그 2가지 모양은 original과 shifted 모양이다.  
+Autocorrelation이 0이면 일반적인 회귀 모델을 쓸 수 있지만,  
+0이 아니라면 최소 제곱 사용할 수 없고 회귀 모델을 쓸 수 없다.
+
+Increasing Seasonal variation은 루트와 로그로 해결하는데, 로그가 더 많이 사용된다.
+
+
 # 민정([miinkang](https://github.com/miinkang))
 
 - 일반적인 regression 모델을 사용하기 위해서는 다음 가정이 성립해야한다.   
