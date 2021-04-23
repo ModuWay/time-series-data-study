@@ -1,4 +1,36 @@
-# 성은([vg-rlo](https://github.com/))
+## 성은([vg-rlo](https://github.com/vg-rlo))
+
+####  Q. Transformation을 해줄때 Square root transformation과 Log transformation을 해줌으로서 increase한 magnitude를 constant하게 바꿔준다. Time series Regression에  적용하기 위해서 이와 같은 처리를 해주는데 correlation을 없애주기 위함인지 궁금하다. 
+magnitude of the seasonal swing depends on the level of time series 
+=> increasing seasonal variation     
+회귀모델링을 하기 위해 평균과 분산은 시점에 의존하면 안된다. 따라서 분산이 일정하지 않은 시계열은 변환을 통해 정상화할 수 있다. 이때, 주로 Log transformation을 사용한다. 공분산(covariance)도 시차에만 의존하고 특정 시점에 의존하지 않는다.     
+
+- 링크 
+[시계열분석의 개념](https://analysis-flood.tistory.com/17)
+[ADP 시계열 분석](https://ckmoong.tistory.com/7)   
+
+#### Q. 오차, 잔차 차이에서모집단/표본집단인 상황이 어떻게 구분되는지와  '회귀모형에서 오차항은 측정할 수 없으므로'라는 부분이 궁금하다. 
+####  Q. 최소제곱법 왜 사용해주는지 
+
+모집단과 표본집단
+* 대부분의 상황에서 표본집단에서 회귀식을 얻는다. => 강의에서도 표본집단 케이스를 예시로 들음 
+
+오차의 정의
+* 모집단에서 회귀식을 얻었다면, 그 회귀식을 통해 얻은 예측값과 실제 관측값의 차이 
+
+잔차의 정의 
+* 표본집단에서 회귀식을 얻었다면 그 회귀식을 통해 얻은 예측값과 실제 관측값의 차이 
+* 회귀 모형에서 오차항은 측정할 수 없으므로 잔차를 오차항의 관찰값으로 해석하여 오차항에 대한 가정들의 성립 여부를 조사함
+
+최소제곱법 
+* 일반적으로 회귀모델에서 최소제곱법을 활용한다. 
+* 잔차들의 제곱들을 더한 것을 최소로 만들어주는 파라미터(아래 수식에서의 Beta)를 찾는 것이 최적의 회귀식을 찾는 것이다. 
+![image](https://user-images.githubusercontent.com/69677950/115814726-962f4d80-a430-11eb-9d4e-32cdabdbd0ed.png)
+
+- 링크 
+[최소제곱추정](https://otexts.com/fppkr/least-squares.html)    
+[선형대수학 최소제곱법](https://bskyvision.com/236)
+
 # 이삭([](https://github.com/))
 # 인유([](https://github.com/))
 # 민정([miinkang](https://github.com/miinkang))
@@ -21,10 +53,6 @@ autocorrelation이 없다면, 공분산이 0이라는 가정이 성립하기에 
 이번 강의에서는 autocorrelation을 확인하는 이유와 검정방법에 대해 알아볼 수 있었다. 
 
 ## Q. residual과 error term의 차이점    
-- error term : 모집단(population)에서 얻은 예측값과 실제 관측값의 차이
-- residual : 표본집단(sample)에서 얻은 예측값과 실제 관측값의 차이    
-해당 강의에서는 모집단이 없는 경우이기 때문에 error term을 직접 확인할 수 없어서 residual을 통해 autocorrelation을 확인한다고 설명한다.     
-
 **The Difference Between Error Terms and Residuals**     
 Although the error term and residual are often used synonymously, there is an important formal difference. An error term is generally unobservable and a residual is observable and calculable, making it much easier to quantify and visualize. In effect, while an error term represents the way observed data differs from the actual population, a residual represents the :way observed data differs from sample population data.    
 출처 : [Error Term](https://www.investopedia.com/terms/e/errorterm.asp#:~:text=The%20Difference%20Between%20Error%20Terms%20and%20Residuals&text=In%20effect%2C%20while%20an%20error,differs%20from%20sample%20population%20data)      
