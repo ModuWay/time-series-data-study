@@ -1,6 +1,6 @@
 # 성은([vg-rlo](https://github.com/vg-rlo))
 
-##  Q. ~~ Time series data를  Regression에  적용하기 위해서~~ Time series data를 ordinary regression으로 분석하기 위해 transformation 해주는데 correlation을 없애주기 위함인지 궁금하다. 
+##  Q. ~~Time series data를  Regression에  적용하기 위해서~~ Time series data를 ordinary regression으로 분석하기 위해 transformation 해주는데 correlation을 없애주기 위함인지 궁금하다. 
 **magnitude of the seasonal swing depends on the level of time series**
 => increasing seasonal variation     
 Transformation을 해줄때 Square root transformation과 Log transformation으로 increase한 magnitude를 constant하게 바꿔준다.    
