@@ -40,7 +40,7 @@ In an additive time series, the components add together to make the time series.
 #### [miinkang] 비트 트레이더 대회에서 분석 및 예측하는 비트코인 데이터는 둘 중 어디에 속할까에 대해 다시 고민해봐야할 것 같습니다. 
 이전에 이삭님께 질문했었는데, 계절성은 없지만 점진적으로 증가하는 축에 속할 것 같다라는 답변을 얻었습니다.    
 
-#### [vg-rlo] 가상화폐의 가격 흐름이 seasonal하다면, 가격을 예측하는 경우 트렌드에 맞게 seasonal 데이터를 예측할 수 있는 multiplicative가 적절합니다.
+#### [vg-rlo] 가상화폐의 가격 흐름이 seasonal하다면, 가격을 예측하는 경우 트렌드에 맞게 seasonal 데이터를 예측할 수 있는 multiplicative가 적절합니다. 
 [시계열 데이터 기초관련 정리 블로그](https://be-favorite.tistory.com/62), [서치한 답변!](https://dodonam.tistory.com/89)
 additional/multiplicative 모두 data가 seasonal하다고 전제할 때 Trend와 seasonality가 상호 연관성을 가지는지 여부에 따라 선택하여 사용하게 됩니다. 상호연관성은 데이터의 크기에 따라 계절 패턴 크기가 달라지는 경우를 의미합니다.
 
