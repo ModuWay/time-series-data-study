@@ -31,7 +31,20 @@ Transformation을 해줄때 Square root transformation과 Log transformation으�
 [최소제곱추정](https://otexts.com/fppkr/least-squares.html)    
 [선형대수학 최소제곱법](https://bskyvision.com/236)
 
-# 이삭([](https://github.com/))
+# 이삭([IsaacTips](https://github.com/IsaacTips))
+
+## Q. Increasing seasonal variation은 Stationary Regression Model로 핸들링이 어렵다. 그래서, Constant하게 바꿔주고 모델링을 해야하는데, 이 과정에서 데이터의 특징이 사라지지 않을까??
+---
+
+강의에서는 공분산이 0이어야 stationary regression 모델을 사용할 수 있다고 하였다.
+
+> Cov(X, Y) = 0 공분산이 0이라면 두 변수간에는 아무런 선형관계가 없으며 두 변수는 서로 독립적인 관계에 있음을 알 수 있다. 그러나 두 변수가 독립적이라면 공분산은 0이 되지만, 공분산이 0이라고 해서 항상 독립적이라고 할 수 없다. [참고](https://destrudo.tistory.com/15)
+
+반면에 Increasing seasonal variation은 magnitude of the seasonal swing이 계속 증가하는 형태이기 때문에, [stationary time series 기준](https://seoncheolpark.github.io/book/_book/17-1-stationary-time-series.html)에 맞지 않다. 
+
+<img src="./image/increasing.png" />
+<center>increasing seasonal variation. 갈 수록 증가폭이 커지고 있다.</center>
+
 # 인유([willowlkim8](https://github.com/willowkim8))
 
 회귀 모델
