@@ -7,6 +7,12 @@
 
 
 # 이삭([IsaacTips](https://github.com/IsaacTips))
+## Seasonal Factor를 Binary 변수로 바꿔주는 이유?
+
+<img src="./image/binary.jpg" />
+
+예시를 보면 
+
 # 인유([willowlkim8](https://github.com/willowkim8))
 
 전처리가 끝나면 시범적인 모델을 찾아봐야한다.
