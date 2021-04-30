@@ -17,7 +17,7 @@
 
 ## 방식
 - 1주에 1강씩 **강의를 듣는다.**
-    - [김성범\[소장/인공지능연구소\] 유튜브 채널의 2020년 예측모델 강의](https://youtu.be/g2pXzSNwcAQ)
+    - [김성범\[소장/인공지능연구소\] 유튜브 채널의 2020년 예측모델 강의](https://www.youtube.com/watch?v=7Do_hixXCpc&list=PLpIPLT0Pf7IqSuMx237SHRdLd5ZA4AQwd&index=6)
     - 강의는 Time Series Regression - Part1 부터 듣는다. (총 11강의)
     - 앞 강의는 필요시 참고한다.
 - 각 강의 md 파일에 각 강의와 관련된 **정리, 질문** 등을 자유롭게 작성한다.
