@@ -9,9 +9,18 @@
 # 이삭([IsaacTips](https://github.com/IsaacTips))
 ## Seasonal Factor를 Binary 변수로 바꿔주는 이유?
 
+Binary 변수로 바꿔주는 것을 하나의 표현 방식이라고 생각하자.
+
+<img src="./image/binary.png" />
+
+t시점에서 season이 일치하다면 1이고 아니면 0으로 표현. 
+
 <img src="./image/binary.jpg" />
 
-예시를 보면 
+예시를 보면 169는 8년째의 1월이기 때문에 $x_{1}$에 169, $x_{2}$에 1을 넣고 나머지는 전부 0이 된다. 
+
+__결론__
+* Binary 변수로 바꿔주는 것은 하나의 표현 방식인데, t 시점이 그 season이라면 1을 아니면 0으로 표현하여, 예측모델 수식에 넣는다.
 
 # 인유([willowlkim8](https://github.com/willowkim8))
 
