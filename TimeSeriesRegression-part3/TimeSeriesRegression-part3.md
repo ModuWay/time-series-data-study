@@ -24,39 +24,66 @@ __결론__
 
 # 인유([willowlkim8](https://github.com/willowkim8))
 
-전처리가 끝나면 시범적인 모델을 찾아봐야한다.
+- 이진 변수
 
-**graphical method** : 주관적이지만 [왜 주관적이지??-> cut off, dying out 를 판단하는게 주관적일 수 있다!]
+------
 
-MA or AR or ARMA 중에 고르기
+계절적 변동(호텔 투숙객 변화량) →  seasonal variation 을 이진변수로 어떻게 모델링 할지
 
-그에 맞는 파라미터도 정해야한다.  
+$$M_1 = { 1, 0} :1월or 비1월
+ $$
 
+$$M_2= { 1, 0} :2월or 비2월$$
 
+$$M_{11} 까지만 있다.$$
 
-1에서 cut off → MA(1) 적합
+$M_{11}$까지만 있다.  M_1 ~ M_11 까지 모두 0일때 12월이니까
 
-근방 모델 찍어보기 → 수동으로 찾기
+linear trend
 
-AIC 젤 작은거 → 최종은 아님   
+log transform 으로 increasing variation 을 constant variation  으로 변경 후  이진변수 모델을 적용해야한다.
 
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/054cc0e6-8d41-4be9-96c7-273040e4a27d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/054cc0e6-8d41-4be9-96c7-273040e4a27d/Untitled.png)
 
+다음 1월 예측 계산
 
-**Diagnosis**
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ebb10cb-2b61-4d44-b221-6eea591373c5/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ebb10cb-2b61-4d44-b221-6eea591373c5/Untitled.png)
 
-최종으로 확인하는 단계
+- Trigonometric Models
 
-Residual을 가지고 ACF(autocorrelation)하는거
+------
 
-40개 중에서 2-3개 나가는 것까지는 OK (육안으로 확인했을 때)
+sin과 cos으로 seasonal variation을 표현해보면 어떨까
 
-→최종 모델로 선정   
+model 1 → 조금 regular 한거,  simple seasonal 에서
 
+model 2 → more complicated seasonal patterns은 이걸로
 
+model 1 → 베타 0부터 3까지 추정하면 된다.
 
-**Seasonal ARIMA Model(SARIMA)**
+해석보다 예측에 더 많이 쓰이는 모델이다.
 
-월별 계절성 s=12, 분기별 계절성 s=4
+- Growth Curve Model (성장커브)
+
+------
+
+파라미터가 linear하지 않을 때
+
+t시점에서  y를 파라미터의 비선형 결합으로 알아보자
+
+더하기 빼기가 아니고 곱하기로 이루어져있음
+
+비선형은 모델링이 어려워서 이걸 다시 Linear 파라미터로 바꿔줘야 함
+
+로그 성질을 이용 곱하기를 → 더하기로 : 선형식으로 바꿔줌
+
+- Time Series Regression with Autocorrelation
+
+------
+
+Original regression 가정의 일부를 코릴레이션이 있다는 걸 감안해서
+
+→ error term이 Autocorrelation 되어있다는 가정 하에
 
 # 민정([miinkang](https://github.com/miinkang))
 ## 삼각함수를 이용한 시계열 데이터 예측 
