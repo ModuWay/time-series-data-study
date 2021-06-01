@@ -5,6 +5,15 @@
 
 ## ARIMA모델을 사용하려면 왜 Stationary 해야 하는가?(내가 잘 이해했는지 확인용 질문ㅋㅋ)
 
+좀 더 찾아볼 예정
+
 # 인유([willowlkim8](https://github.com/willowkim8))
 # 민정([miinkang](https://github.com/miinkang))
+<<<<<<< HEAD
 
+=======
+## 알게된 점
+ARIMA모델링 시에 차분을 하는 기준에 대해 알지 못했었는데 데이터의 특성에 따라 차분 횟수를 정하는 기준에 대해 알게 되었다. 
+1. 데이터가 일정하게 증가하거나, 감소하는 경향이 있을 경우 : **1차** 차분
+2. 복잡한 데이터의 경우 : **2차** 차분   
+>>>>>>> upstream/main
