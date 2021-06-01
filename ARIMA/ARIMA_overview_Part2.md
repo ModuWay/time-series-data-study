@@ -1,4 +1,11 @@
 # 성은([vg-rlo](https://github.com/vg-rlo))
+
+## Q. Dying out(Exponential한 감소), Cutting(급격한 감소)을 그래프로 보고 확인하는데, 다른 확인 방법은 없는지?
+
+## 알게된 점 
+
+* ARIMA Modeling Process에 대해 알 수 있었다. Data preprocessing(Differencing) - Indentify Model(Test) - Estimate Params - Diagnosis Check(Residual) - Use Model To Forcast과 같은 5가지  Steps이 있다.  
+
 # 이삭([IsaacTips](https://github.com/IsaacTips))
 
 ## 대체로 많이 사용하는 모수들이 있던데, 그 값들은 어떻게 나오게 된걸까?(노드에서 언급)

@@ -1,4 +1,10 @@
 # 성은([vg-rlo](https://github.com/vg-rlo))
+
+## 알게된 점
+
+* auto_arima 라이브러리가 실제 사용했을 때, AIC가 낮은 파라미터를 찾아내지 못해서 문제가 있는 라이브러리가 생각했으나, 함수의 argument를 graphical한 방법으로 초기값을 잘 줘야한다는 점을 알았다.
+* 실습과정에서 itertools로 전체 케이스를 적용하는 방법으로 검증할 수 있다.  auto_arima로 최적 파라미터 구하는 과정을 시간 효율성을 확보할 수 있다.
+
 # 이삭([IsaacTips](https://github.com/IsaacTips))
 # 인유([willowlkim8](https://github.com/willowkim8))
 # 민정([miinkang](https://github.com/miinkang))
