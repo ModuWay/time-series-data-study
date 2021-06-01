@@ -5,3 +5,7 @@
 
 # 인유([willowlkim8](https://github.com/willowkim8))
 # 민정([miinkang](https://github.com/miinkang))
+## 알게된 점 - 파라미터 설정방법
+- d(차분)의 경우, 데이터의 특성에 따라 1 or 2로 결정한다.   
+- 차분후 ACF를 이용해 stationary하게 변함을 확인해야한다.    
+- p, q : 1~20으로 그리드 서치를 진행한 후 AIC가 낮은 모수를 선택한다. 
