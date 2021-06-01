@@ -48,15 +48,15 @@ Transformation을 해줄때 Square root transformation과 Log transformation으�
 # 인유([willowlkim8](https://github.com/willowkim8))
 
 회귀 모델
-$$y_t=TR_t+\epsilon_t$$
-위의 식에서 $TR$은 trend, 추세이다.  
+y_t=TR_t+\epsilon_t
+위의 식에서 TR은 trend, 추세이다.  
 이때 추세가 없는 경우에는 일정한 값으로 예측하거나, prediction interval로도 예측 가능하다.  
 
-Q. $\alpha$가 있을 때 prediction interval 구할 수 있다고 했는데, 이때 $\alpha$는 무엇인가?
+Q. alpha가 있을 때 prediction interval 구할 수 있다고 했는데, 이때 alpha는 무엇인가?
 >prediction interval(PI)는 confidence interval(CI)와 함께 신뢰구간을 뜻한다.  
 100(1-$\alpha$)%로 신뢰구간을 구하는 것이고, $\alpha$는 사용자가 지정하면된다.  
 
-회귀모델을 쓰려면 $\epsilon$들이 서로 다른 시점에서 독립이어야 한다.  
+회귀모델을 쓰려면 epsilon들이 서로 다른 시점에서 독립이어야 한다.  
 당연히 위배될 가능성이 크다.  
 => Autocorrelation으로 회귀 모델을 쓸 수 있을지 확인 가능하다.  
 auto = self, co = two, 이 의미를 통합하면 스스로 2가지를 모양을 하고 관계를 한다는 것이다.  
