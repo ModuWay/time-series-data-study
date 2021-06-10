@@ -8,6 +8,9 @@
 좀 더 찾아볼 예정
 
 # 인유([willowlkim8](https://github.com/willowkim8))
+
+## nonstationary data 를 모델링할 때, AR, MA 등 쓴다고 했는데, 차분 후에는 앞서 말한 모델이 잘 되지 않는건가?
+
 # 민정([miinkang](https://github.com/miinkang))
 ## 알게된 점
 ARIMA모델링 시에 차분을 하는 기준에 대해 알지 못했었는데 데이터의 특성에 따라 차분 횟수를 정하는 기준에 대해 알게 되었다. 

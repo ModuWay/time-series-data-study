@@ -16,8 +16,10 @@ d는 차분이기 때문에, 1이나 2를 해서 직접 찍어보고 안정되�
 
 강의에서는 for문으로 모든 경우의 수를 해보는 것이 좋다고 말했다.
 
-
 # 인유([willowlkim8](https://github.com/willowkim8))
+
+## graphical method랑 ACF는 기준이 모호한데 더 정량적인 것들은 뭐가 있는지 찾아보기
+
 # 민정([miinkang](https://github.com/miinkang))
 ## 알게된 점 - 파라미터 설정방법
 - d(차분)의 경우, 데이터의 특성에 따라 1 or 2로 결정한다.   
