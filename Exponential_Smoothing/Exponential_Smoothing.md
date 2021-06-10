@@ -24,6 +24,8 @@
 # 인유([willowlkim8](https://github.com/willowkim8))
 - 구간 평균법
 
+***
+
 예측 값(forcast) = last level calculated(마지막 평균으로 쭉) → 이게 한계
 
 유일한 하이퍼파라미터 = N
@@ -43,10 +45,6 @@ y자체로 y를 예측한다
 최근 데이터에 가중치를 더 두고 과거로 갈수록 가중치를 줄어들게
 
 그 기준은 지수분포에 근거하겠다 → 지수 평활법
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2a9ebf40-fdaa-42db-86a2-63cd92df6bda/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2a9ebf40-fdaa-42db-86a2-63cd92df6bda/Untitled.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e1c52053-be24-4751-8bad-7d5e132df1a8/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e1c52053-be24-4751-8bad-7d5e132df1a8/Untitled.png)
 
 - 단순 지수 평활법 ( 알파 = 0.1 )
 
