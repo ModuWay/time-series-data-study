@@ -14,4 +14,7 @@ Moving Average 모델과 Auto Regression 모델들의 auto covariance, auto corr
     * AR(2) : 두 시점 뒤의 데이터를 가지고 모델링.
 
 # 인유([willowlkim8](https://github.com/willowkim8))
+
+## 시계열에서 화이트 노이즈란?
+
 # 민정([miinkang](https://github.com/miinkang))
