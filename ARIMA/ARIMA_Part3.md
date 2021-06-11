@@ -9,6 +9,20 @@
 * 모델에 대한 수식 증명이 필요하다는 점을 알았다. 수식 풀이만 따라가는 정도였다.  
 
 # 이삭([IsaacTips](https://github.com/IsaacTips))
+
+## Q. White Noise란?
+
+시계열 모형은 크게 4가지 모형으로 분류되는데,
+
+* 백색잡음 (White Noise)
+* 랜덤워크 (Random Walk)
+* 자기회귀 (Autoregression)
+* 이동평균 (Moving Average)
+
+* [백색잡음](https://otexts.com/fppkr/wn.html)
+
+추세와 분산이 커지는 시계열이다. (이정도까지만 이해하기로...)
+
 # 인유([willowlkim8](https://github.com/willowkim8))
 # 민정([miinkang](https://github.com/miinkang))
 ## Q. white noise 에 대해 더 조사해봐야겠다. 
