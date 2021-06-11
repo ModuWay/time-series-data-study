@@ -25,4 +25,8 @@
 
 # 인유([willowlkim8](https://github.com/willowkim8))
 # 민정([miinkang](https://github.com/miinkang))
-## Q. white noise 에 대해 더 조사해봐야겠다. 
+## Q. white noise 란?
+- 자기 상관성(autocorrelation)이 없는 시계열 데이터 : 백색잡음(white noise)
+- white noise는 자기상관 값 각각이 거의 0이라고 기대할 수 있는 시계열 데이터를 말한다. 
+[ref](https://otexts.com/fppkr/wn.html)
+- 차분 후 백색잡음이 생기는 경우 : [참고 블로그 글](https://otexts.com/fppkr/stationarity.html)
