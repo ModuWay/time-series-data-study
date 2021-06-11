@@ -18,3 +18,7 @@ Moving Average 모델과 Auto Regression 모델들의 auto covariance, auto corr
 ## 시계열에서 화이트 노이즈란?
 
 # 민정([miinkang](https://github.com/miinkang))
+- MA model : white noise 를 이용해 모델링
+- AR model : prior data(자기자신) 를 이용해 모델링
+- 각 모델의 ACF를 수식으로 증명하는 강의 
+- 이 블로그 글을 참고하면서 수식을 따라 갔다. [ARIMA 모델 설명 블로그](https://ahnyuk2.blogspot.com/2019/07/time-series-arima-sarima.html)
