@@ -6,6 +6,11 @@
 * 실습과정에서 itertools로 전체 케이스를 적용하는 방법으로 검증할 수 있다.  auto_arima로 최적 파라미터 구하는 과정을 시간 효율성을 확보할 수 있다.
 
 # 이삭([IsaacTips](https://github.com/IsaacTips))
+
+## 알게된 점
+
+* SARIMA에서 seasonal parameter도 탐색의 대상이 된다.
+
 # 인유([willowlkim8](https://github.com/willowkim8))
 # 민정([miinkang](https://github.com/miinkang))
 ## 알게된 점 

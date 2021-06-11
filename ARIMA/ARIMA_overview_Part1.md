@@ -5,8 +5,12 @@
 
 ## ARIMA모델을 사용하려면 왜 Stationary 해야 하는가?(내가 잘 이해했는지 확인용 질문ㅋㅋ)
 
-좀 더 찾아볼 예정
+정상성의 의미는 시계열의 확률적인 성질들이 시간의 흐름에 따라 변하지 않는다는 것을 의미한다. 평균과 분산 등 체계적인 변화가 없고 주기적인 변화가 없는 것을 의미한다. 대부분의 시계열의 이론은 정상성을 가정하고 전개 되기 때문에 비정상(non-stationarity) 시계열은 정상시계열로 변환해 줄 필요가 있다.
 
+어렵게 말하면 어떠한 시점의 결합확률밀도 함수가 시간이 지나도 변화하지 않는다는 것.
+
+[참고](https://blog.naver.com/PostView.nhn?blogId=muzzincys&logNo=220077613384&categoryNo=19&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView)
+ 
 # 인유([willowlkim8](https://github.com/willowkim8))
 
 ## nonstationary data 를 모델링할 때, AR, MA 등 쓴다고 했는데, 차분 후에는 앞서 말한 모델이 잘 되지 않는건가?
