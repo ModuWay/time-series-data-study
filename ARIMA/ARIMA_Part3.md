@@ -24,6 +24,11 @@
 추세와 분산이 커지는 시계열이다. (이정도까지만 이해하기로...)
 
 # 인유([willowlkim8](https://github.com/willowkim8))
+
++ 시간에 관계없이 평균과 분산이 일정해야 한다.  
+
++ x_t가 일정할 때, z_t가 일정하지 않지만 델타z_t는 일정함을 증명할 수 있다.
+
 # 민정([miinkang](https://github.com/miinkang))
 ## Q. white noise 란?
 - 자기 상관성(autocorrelation)이 없는 시계열 데이터 : 백색잡음(white noise)
