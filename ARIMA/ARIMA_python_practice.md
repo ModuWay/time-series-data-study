@@ -12,6 +12,13 @@
 * SARIMA에서 seasonal parameter도 탐색의 대상이 된다.
 
 # 인유([willowlkim8](https://github.com/willowkim8))
+
+(배운 내용의 흐름을 정리할 수 있는 강의)
+
+## 알게된 점
+
++ 그래프 판단할 때, 주관적인 판단이 많이 들어가서 모델 선정하는 데 있어 많은 경험이 있으면 좋을 것 같다.
+
 # 민정([miinkang](https://github.com/miinkang))
 ## 알게된 점 
 - 차분 후 결측치를 제거해야한다. 

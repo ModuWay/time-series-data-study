@@ -9,7 +9,7 @@
 
 # 인유([willowlkim8](https://github.com/willowkim8))
 
-### h값에 따른 ARIMA 모델의 분산을 구하는 
+### h값에 따른 ARIMA 모델의 분산을 구하는 식
 
 # 민정([miinkang](https://github.com/miinkang))
 
