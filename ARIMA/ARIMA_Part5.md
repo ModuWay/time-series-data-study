@@ -1,4 +1,10 @@
 # 성은([vg-rlo](https://github.com/vg-rlo))
+
+## x_t의 조건식을 정리해나갈 때 왜 다 무한등비급수 꼴이 되는가?
+AR, ARMA, ARIMA 모델 등에서 Stationary한 시계열의 경우에서도 lag가 커져도 천천히 ACF가 급감할 뿐, 수렴하지 않고 무한대로 발산한다.     
+따라서 x_t의 조건식도 유리수의 거듭제곱으로 인해 무한등비급수의 형태로 표현 가능하다.    
+[참고자료](https://m.blog.naver.com/estpublic/221766903723)
+
 # 이삭([IsaacTips](https://github.com/IsaacTips))
 
 ## Q. 강의에서 Forward shift operator는 많이 사용하지 않는다라고 언급했다. 어느때 사용하는 것일까?
