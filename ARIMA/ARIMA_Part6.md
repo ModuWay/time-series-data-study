@@ -6,7 +6,8 @@ ARIMA 모델에 대한 예측 구간에 대한 가정
 
 가정을 만족하는지 확인하는 방법 
 * ACF
-* 잔차의 히스토그램 
+* 잔차의 히스토그램     
+[참고자료](https://otexts.com/fppkr/prediction-intervals.html)
 
 # 이삭([IsaacTips](https://github.com/IsaacTips))
 
