@@ -13,3 +13,5 @@
 
 # 민정([miinkang](https://github.com/miinkang))
 
+![image](https://user-images.githubusercontent.com/68461606/124343164-73759e00-dc04-11eb-9b56-3fd527fc50b2.png)   
+AR모델에서의 white noise를 수식 내에 있는 **함수**에 통과시키면 어떤 특정한 패턴을 갖고 있는 ar p process가 된다. 
