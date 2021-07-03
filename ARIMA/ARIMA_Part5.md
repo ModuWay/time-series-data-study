@@ -8,4 +8,8 @@
 [참고자료](https://blog.naver.com/estpublic/221766516237)
 
 # 인유([willowlkim8](https://github.com/willowkim8))
+
+### h값에 따른 ARIMA 모델의 분산을 구하는 
+
 # 민정([miinkang](https://github.com/miinkang))
+
